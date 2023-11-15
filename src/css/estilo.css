@@ -196,7 +196,7 @@ body {
     background-color: lightpink;
 }
 
-@media(max-width:425px) {
+@media(max-width: 425px) {
     .services{
         grid-template-columns: 1fr;
     }
