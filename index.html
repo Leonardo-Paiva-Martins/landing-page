@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência Xyz</title>
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/estilo.css">
-    <link rel="stylesheet" href="src/css/menu.css">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/font-awesome.css">
+    <link rel="stylesheet" href="./src/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -35,7 +39,7 @@
                 <ul>
                     <li><a href="#abaut">Abaut</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#project">Project</a></li>
+                    <li><a href="#projects">Project</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -46,7 +50,7 @@
         <h2>We make coll things</h2>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="item">
             <h3>Title</h3>
 
@@ -67,7 +71,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="service">
             <img src="./src/imagens/bolinha1.png" alt="bolinha 1">
             <div class="service-info">
@@ -87,8 +91,54 @@
             </div>
         </div>
     </section>
-    <section class="projects">5</section>
-    <footer class="footer">6</footer>
+    <section class="projects" id="projects">
+        <div class="project">
+            <a href="">
+                <img src="./src/imagens/tomatoes.jpg" alt="Tomatoes">
+            </a>
+        </div>
+        <div class="project">
+            <a href="">
+                <img src="./src/imagens/landscape.jpg" alt="Landscape">
+            </a>
+        </div>
+        <div class="project">
+            <a href="">
+                <img src="./src/imagens/plants3.jpg" alt="Plants">
+            </a>
+        </div>
+        <div class="project">
+            <a href="">
+                <img src="./src/imagens/flowers.jpg" alt="Flowers">
+            </a>
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <h4>Agência XYZ</h4>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+
+        <div class="social">
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-pinterest"></i>
+            </a>
+        </div>
+
+    </footer>
 </body>
 
 </html>
